@@ -1657,6 +1657,8 @@ let
 
   librdmacm = callPackage ../development/libraries/librdmacm { };
 
+  libwebsockets = callPackage ../development/libraries/libwebsockets { };
+
   logcheck = callPackage ../tools/system/logcheck {
     inherit (perlPackages) mimeConstruct;
   };
